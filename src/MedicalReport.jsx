@@ -138,9 +138,9 @@ const MedicalReportApp = () => {
           <table className="w-full text-sm border border-gray-200 rounded-md">
             <thead className="bg-gray-100">
               <tr>
-                <th className="text-left px-3 py-2 border-b">Test</th>
-                <th className="text-left px-3 py-2 border-b">Result</th>
-                <th className="text-left px-3 py-2 border-b">Explanation</th>
+                <th className="text-center px-3 py-2 border-b">Test</th>
+                <th className="text-center px-3 py-2 border-b">Result</th>
+                <th className="text-center px-3 py-2 border-b">Explanation</th>
               </tr>
             </thead>
             <tbody>
