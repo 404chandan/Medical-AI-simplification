@@ -1,16 +1,45 @@
-# React + Vite
+**Summary**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is called AI Medical Report Simplifier.
+It helps patients understand their medical reports easily. A user can either upload a file (PDF, JPG, PNG, TXT) or paste the text of the report. The system then sends this to the backend. The backend extracts important test results, checks if they are normal, low, or high, and gives a clear explanation in simple words using Gemini AI. The frontend shows the results neatly in a table with colored highlights.
 
-Currently, two official plugins are available:
+**Tech Stack Used**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React + Tailwind CSS + Lucide React Icons
 
-## React Compiler
+Backend: Node.js + Express
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Other Tools: Multer for file upload, Fetch API for server calls
 
-## Expanding the ESLint configuration
+**Hosting:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend on Vercel
+
+Backend on Render
+
+Setup
+
+Clone the repos:
+
+Frontend: git clone https://github.com/404chandan/Medical-AI-simplification
+
+Backend: git clone https://github.com/404chandan/img_to_text-main
+
+Install dependencies:
+
+npm install
+
+
+Create a .env file and add API keys (for OCR / Gemini if used).
+
+Run locally:
+
+Frontend: npm run dev
+
+Backend: node server.js
+
+Or use deployed links directly:
+
+Frontend (UI): https://medical-ai-simplifiers.vercel.app
+
+Backend API: https://plum-backend-main.onrender.com/analyze-report
