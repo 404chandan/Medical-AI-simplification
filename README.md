@@ -23,12 +23,13 @@ Clone the repos:
 
 Frontend: git clone https://github.com/404chandan/Medical-AI-simplification
 
-Backend: git clone https://github.com/404chandan/img_to_text-main
+Backend : https://github.com/404chandan/Medical-AI-Simplification-Backend
+
+OCR Text Extractor: git clone https://github.com/404chandan/img_to_text-main
 
 Install dependencies:
 
 npm install
-
 
 Create a .env file and add API keys (for OCR / Gemini if used).
 
@@ -40,6 +41,16 @@ Backend: node server.js
 
 Or use deployed links directly:
 
-Frontend (UI): https://medical-ai-simplifiers.vercel.app
+**Frontend (UI)**: https://medical-ai-simplifiers.vercel.app
 
-Backend API: https://plum-backend-main.onrender.com/analyze-report
+**Backend API**: https://plum-backend-main.onrender.com/analyze-report
+
+Working : 
+<img width="1767" height="708" alt="image" src="https://github.com/user-attachments/assets/d56574b5-af65-474e-ba72-03d5b6cd1af7" />
+<img width="1790" height="676" alt="image" src="https://github.com/user-attachments/assets/82fd2994-ea03-4901-afb7-1d7c8642d726" />
+<img width="1474" height="629" alt="image" src="https://github.com/user-attachments/assets/a2ab0dd7-52fb-405d-a892-fd2c63cd2a51" />
+
+**Watch demo**: https://youtu.be/WwZf9NbQq8s
+
+
+
