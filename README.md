@@ -17,7 +17,7 @@ Frontend on Vercel
 
 Backend on Render
 
-Setup
+**Setup**
 
 Clone the repos:
 
@@ -33,7 +33,7 @@ npm install
 
 Create a .env file and add API keys (for OCR / Gemini if used).
 
-Run locally:
+**Run locally:**
 
 Frontend: npm run dev
 
@@ -45,7 +45,8 @@ Or use deployed links directly:
 
 **Backend API**: https://plum-backend-main.onrender.com/analyze-report
 
-Working : 
+**Working :**
+
 <img width="1767" height="708" alt="image" src="https://github.com/user-attachments/assets/d56574b5-af65-474e-ba72-03d5b6cd1af7" />
 <img width="1790" height="676" alt="image" src="https://github.com/user-attachments/assets/82fd2994-ea03-4901-afb7-1d7c8642d726" />
 <img width="1474" height="629" alt="image" src="https://github.com/user-attachments/assets/a2ab0dd7-52fb-405d-a892-fd2c63cd2a51" />
